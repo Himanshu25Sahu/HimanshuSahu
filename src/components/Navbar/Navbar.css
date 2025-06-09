@@ -1,0 +1,31 @@
+.navbar {
+  position: fixed;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 50;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(16px);
+  border-radius: 9999px;
+  padding: 12px 24px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.nav-container {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-item {
+  color: white;
+  background: none;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+  color: #c084fc;
+}

@@ -1,0 +1,88 @@
+.footer {
+  background: #000000;
+  border-top: 1px solid #374151;
+  padding: 48px 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.footer-text {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #9ca3af;
+  font-size: 14px;
+}
+
+.heart {
+  color: #ef4444;
+  animation: heartbeat 1s ease-in-out infinite;
+}
+
+.footer-copyright {
+  color: #9ca3af;
+  font-size: 14px;
+}
+
+.footer-signature {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.signature {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: linear-gradient(45deg, #c084fc, #f472b6, #06b6d4);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 200%;
+  animation: gradient 3s ease infinite;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.signature:hover {
+  transform: scale(1.05) rotate(2deg);
+}
+
+@keyframes heartbeat {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    text-align: center;
+  }
+}
