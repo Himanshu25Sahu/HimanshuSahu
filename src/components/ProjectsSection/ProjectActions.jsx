@@ -3,7 +3,7 @@ const ProjectActions = ({ project, isHovered }) => {
     <div className={`project-actions ${isHovered ? "visible" : ""}`}>
       {project.github && project.github !== "NA" && (
         <a href={project.github} className="action-btn github-btn" target="_blank" rel="noopener noreferrer">
-          <span className="btn-icon"><img src="/icons8-github.svg" alt="GitHub Icon" /></span>
+          <span className="btn-icon"><img src="/HimanshuSahu/icons8-github.svg" alt="GitHub Icon" /></span>
           <span>Code</span>
         </a>
       )}
