@@ -12,7 +12,7 @@ const HeroContent = () => {
   const handleDownloadCV = () => {
     // Create a temporary anchor element
     const link = document.createElement('a')
-    link.href = '/himanshuSahuResume.pdf' // Path to your PDF in public folder
+    link.href = '/HimanshuSahu/himanshuSahuResume.pdf' // Path to your PDF in public folder
     link.download = 'Himanshu_Sahu_Resume.pdf' // Suggested filename for download
     document.body.appendChild(link)
     link.click()
