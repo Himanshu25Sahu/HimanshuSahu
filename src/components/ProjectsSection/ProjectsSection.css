@@ -427,3 +427,22 @@
     justify-content: center;
   }
 }
+
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card {
+    max-width: 100%; /* instead of 40vw */
+  }
+
+  .projects-title {
+    font-size: 2rem;
+  }
+
+  .filter-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

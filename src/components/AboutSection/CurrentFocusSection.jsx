@@ -3,26 +3,26 @@ import { Parallax } from "react-scroll-parallax"
 import { motion } from "framer-motion"
 
 const CurrentFocusSection = () => {
-  const focusAreas = [
-    {
-      title: "Advanced TypeScript",
-      description: "Diving deep into generics, utility types, type-level programming, and scalable code architecture.",
-      progress: 70,
-      icon: "🔷",
-    },
-    {
-      title: "Deep Learning & NLP",
-      description: "Exploring Differnet Neural Network architectures, LLM fine-tuning, embeddings, and advanced NLP workflows.",
-      progress: 55,
-      icon: "🧠",
-    },
-    {
-      title: "Performance-Centric Development",
-      description: "Learning how to architect lightning-fast applications with optimal memory and CPU efficiency.",
-      progress: 60,
-      icon: "⚡",
-    },
-  ]
+const focusAreas = [
+  {
+    title: "DevOps Practices",
+    description: "Mastering CI/CD pipelines, containerization with Docker, orchestration using Kubernetes, and monitoring with modern tools.",
+    progress: 70,
+    icon: "⚙️",
+  },
+  {
+    title: "AWS Cloud",
+    description: "Building scalable applications with AWS services like EC2, S3, Lambda, RDS, and mastering cloud architecture best practices.",
+    progress: 65,
+    icon: "☁️",
+  },
+  {
+    title: "Performance-Centric Development",
+    description: "Learning how to architect lightning-fast applications with optimal memory and CPU efficiency.",
+    progress: 60,
+    icon: "⚡",
+  },
+]
 
   return (
     <Parallax className="parallax-section">

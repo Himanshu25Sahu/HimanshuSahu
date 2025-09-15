@@ -12,6 +12,25 @@ const ProjectsSection = () => {
   const [isVisible, setIsVisible] = useState(false)
 
   useEffect(() => {
+  if (window.innerWidth <= 768) {
+    setIsVisible(true) // Always visible on mobile
+    return
+  }
+
+  const observer = new IntersectionObserver(([entry]) => {
+    if (entry.isIntersecting) {
+      setIsVisible(true)
+    }
+  }, { threshold: 0.1 })
+
+  const element = document.getElementById("projects")
+  if (element) observer.observe(element)
+
+  return () => observer.disconnect()
+}, [])
+
+
+  useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {

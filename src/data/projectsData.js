@@ -51,8 +51,8 @@ export const projectsData = [
       { type: "image", url: "/HimanshuSahu/devspcommu.png?height=400&width=600" },
       { type: "image", url: "/HimanshuSahu/devspsearch.png?height=400&width=600" },
     ],
-    github: "https://github.com/Himanshu25Sahu/DevChat",
-    live: "https://devsphereclient.onrender.com/",
+    github: "https://github.com/Himanshu25Sahu/DevSphere",
+    live: "https://dev-sphere-gilt.vercel.app/",
   },
   {
     id: 3,
@@ -86,22 +86,23 @@ export const projectsData = [
     category: "Systems Programming",
     duration: "Ongoing",
     description:
-      "NovaScript is a work-in-progress interpreted programming language designed to bridge the gap between human thought and code. Inspired by natural language, it's built with an English-like syntax that makes programming more intuitive for beginners — without compromising expressive power.",
+      "NovaScript is a interpreted programming language designed to bridge the gap between human thought and code. Inspired by natural language, it's built with an English-like syntax that makes programming more intuitive for beginners — without compromising expressive power.",
     features: [
       "English-like syntax for beginner-friendly programming",
       "Support for variables, conditionals, loops, functions (WIP or current scope)",
-      "Real-time code execution with instant output in the browser",
-      "Web-based interactive playground for writing and visualizing code",
-      "Wearable device integration",
-      "AI-powered coaching tips",
-    ],
-    tech: ["C++ - Core", "React.js", "AST", "Web APIs"],
-    media: [
-      { type: "image", url: "/HimanshuSahu/novasc.png?height=400&width=600" },
+      "Structured documentation to create your own language",
+      "Web-based interactive playground for visualizing code",
       
     ],
-    github: "NA",
-    live: "NA",
+    tech: ["C++ - Core", "Next.js", "AST", "Web APIs"],
+    media: [
+      { type: "image", url: "/HimanshuSahu/novahome.png?height=400&width=600" },
+      { type: "image", url: "/HimanshuSahu/novadocs.png?height=400&width=600" },
+      { type: "image", url: "/HimanshuSahu/novaex.png?height=400&width=600" },
+      
+    ],
+    github: "https://github.com/Himanshu25Sahu/Novascript",
+    live: "https://novascript-docs.vercel.app/",
   },
   {
     id: 5,
